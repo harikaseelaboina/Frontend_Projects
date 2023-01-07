@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container2 {
+    background-image: url('https://i.pinimg.com/originals/7c/b1/86/7cb18679659f791b1191bea97b74dfc0.jpg');
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+
+}
+
+.button1 {
+    width: 200px;
+    margin: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.image2 {
+    height: 300px;
+    width: 500px;
+    margin: 70px;
+    padding: 30px;
+}
+
+
+
+.bg-container {
+    background-color: #803249;
+}
+
+
+.image1 {
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+}
+
+.part1 {
+    background-color: #cac8cf;
+
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.heading1 {
+    font-family: 'Fantasy';
+    text-align: left;
+}
+
+.paragraph1 {
+    font-weight: bold;
+    text-align: left;
+
+}
+
+
+
+.part2 {
+    background-color: #e3c1cb;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.part3 {
+    background-color: #89e0c6;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.part4 {
+    background-color: #c8d6bf;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.part5 {
+    background-color: #d6c4bf;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+
+.bg-container3 {
+    background-color: #0c2b47;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.container1 {
+    background-color: #c5d5e3;
+    padding: 20px;
+    margin: 5px;
+
+}
+
+.container2 {
+    background-color: #e2c5e3;
+    padding: 20px;
+    margin: 5px;
+}
+
+.container3 {
+    background-color: #d4c785;
+    padding: 20px;
+    margin: 5px;
+}
+
+.image4 {
+    height: 200px;
+    width: 200px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.address {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button4 {
+    height: 60px;
+    width: 150px;
+    font-size: 20px;
+    text-align: center;
+
+}

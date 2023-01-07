@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    background-color: #c294d1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotation {
+    color: #4b4a7e;
+
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.part1a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    border: 2px solid pink;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (orientation:landscape) and (max-width:768px) {
+    .head1 {
+        font-size: 50px;
+    }
+
+    .image1 {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (orientation:portrait) and (min-width:768px) {
+    .head1 {
+        font-size: 60px;
+    }
+
+    .image1 {
+        width: 150px;
+        height: 150px;
+    }
+
+    .part1a {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+}
